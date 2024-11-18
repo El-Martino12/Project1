@@ -1108,9 +1108,11 @@ animation-fill-mode:none ;
   .search-sub a:hover {
     background-color: #9e0505;
     transition: 0.1s ease-in;
-    color: white;
+    color: red;
     border-color: white;
   }
+
+
   
   /* FOOTER */
   .footer-sec {
