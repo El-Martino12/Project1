@@ -228,7 +228,7 @@ animation-fill-mode:none ;
 
 }
 .lorem{
-    margin-left: 15px;
+    margin-left: 25px!important;
 }
 .lorem h3{
     font-weight: bold;
@@ -246,8 +246,15 @@ animation-fill-mode:none ;
     display: inline-block;
     margin-left: 10px;
 }
-
-
+.fa-home{
+  font-size: 35px!important;
+}
+.fa-earth-africa{
+  font-size: 35px!important;
+}
+.fa-map-location-dot{
+  font-size: 35px!important;
+}
 /* *******SECTION 3********** */
 .building-facilities {
   margin-top: 25vh ;
@@ -299,7 +306,7 @@ animation-fill-mode:none ;
 /* CARD SECTION */
 .focus{
     text-align: center;
-    margin-top: 20vh;
+    margin-top: 18vh;
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -315,7 +322,7 @@ animation-fill-mode:none ;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    margin-top: 20vh;
+    margin-top: 12vh;
     padding: 20px;
     align-items: center;
   }
@@ -464,10 +471,12 @@ animation-fill-mode:none ;
     margin-left: 0.4vh;
   }
   .search-sub a {
-    padding: 3vh;
+    padding: 2vh;
     padding-right: 5vh;
+    margin-top: 15px;
     padding-left: 5vh;
     border: 2px solid #000;
+    margin-left: 27px;
     text-decoration: none;
     color: black;
     font-size: 10px;
@@ -478,138 +487,98 @@ animation-fill-mode:none ;
     color: white;
     border-color: white;
   }
-
-  /* FOOTER */
-  .footer-sec {
-    padding-top: 20vh;
-    /* margin-top: -6; */
-    max-width: 100%;
-    padding-bottom: 1vh;
-    background-color: #171B2A;
-  }
-  .footer-flex {
-    display: flex;
-    justify-content: space-around;
-    flex-flow: row wrap;
-  }
-  .footer-img p {
-    margin-top: 2vh;
-    color: white;
-    font-weight: 600;
-  }
-  .footer-contact h3 {
-    font-size: 25px;
-    color: white;
-    font-weight: 600;
-  }
-  .footer-contact a {
-    font-weight: 600;
-    text-decoration: none;
-    color: white;
-  }
-  .footer-contact a:hover {
-    color: purple;
-    transition: 0.6s ease;
-  }
-  .footer-contact p {
-    font-weight: 600;
-    color: white;
-  }
-  .footer-input{
-    text-align: center;
-  }
-  .footer-input input {
-    padding: 1vh;
-    border: 1px solid #9e0505;
-    padding-right: 19vh;
-    margin-bottom: 3vh;
-  }
-  .footer-input a {
-    border: 1px solid #000;
-    padding: 1.8vh;
-    padding-right: 8vh;
-    padding-left: 8vh;
-    text-decoration: none;
-    color: black;
-    background-color: #ff6b6b;
-  }
-  .footer-input a:hover {
-    background-color: #ff6f61;
-    color: white;
-    border-color: #ff6f61;
-    transition: 0.5s ease;
-  }
-  .footer-subscribe h3 {
-    color: white;
-  }
-  .footer-subscribe p {
-    margin-top: 3vh;
-    color: white;
-  }
-  .footer-icons {
-    padding-inline: vh;
-    font-size: 4vh;
-  }
-  .footer-icons a {
-    color: #ff6f61;;
-  }
-  .fa-twitter:hover {
-    color: #fff;
-    transition: 0.6s ease;
-  }
-  .fa-facebook:hover {
-    color: #fff;
-    transition: 0.6s ease;
-  }
-  .fa-square-instagram:hover {
-    color: #fff;
-    transition: 0.6s ease;
-  }
-  .fa-linkedin:hover {
-    color: #fff;
-    transition: 0.6s ease;
-  }
-  .footer-copy {
-    /* margin-top: 25vh; */
-    color: white;
-    text-align: center;
-    font-weight: 600;
-  }
-
-  .jumbotron {
-    background-color: #ff6e40;
-    color: #fff;
-    position: relative;
-    top: 60px;
-    width: 65%;
-    margin: 0 auto;
-    padding: 2rem 1rem;
-    z-index: 9999;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+/* FOOTER */
+.footer-sec {
+  padding-top: 20vh;
+  max-width: 100%;
+  padding-bottom: 1vh;
+  background-color: #171B2A;
+}
+.footer-flex {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+}
+.footer-img p {
+  margin-top: 2vh;
+  color: white;
+  font-weight: 600;
+}
+.footer-contact h3 {
+  font-size: 25px;
+  color: white;
+  font-weight: 600;
+}
+.footer-contact a {
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+}
+.footer-contact a:hover {
+  color: purple;
+  transition: 0.6s ease;
+}
+.footer-contact p {
+  font-weight: 600;
+  color: white;
+}
+.footer-input input {
+  padding: 2.3vh;
+  border: 1px solid #9e0505;
+  margin-bottom: 4vh;
+  padding-right: 19vh;
+}
+.footer-input a {
+  background-color: #ff6f61;
+  padding: 1.8vh;
+  padding-right: 8vh;
+  padding-left: 8vh;
+  text-decoration: none;
+  color: white;
+}
+.footer-input a:hover {
+  background-color: #af1e11;
+  color: white;
+  border-color: #ff6f61;
+  transition: 0.5s ease;
+}
+.footer-subscribe h3 {
+  color: white;
+}
+.footer-subscribe p {
+  margin-top: 3vh;
+  color: white;
+}
+.footer-icons {
+  padding-inline: vh;
+  font-size: 4vh;
+}
+.footer-icons a {
+  color: #ff6f61;
+}
+.fa-twitter:hover {
+  color: #fff;
+  transition: 0.6s ease;
+}
+.fa-facebook:hover {
+  color: #fff;
+  transition: 0.6s ease;
+}
+.fa-square-instagram:hover {
+  color: #fff;
+  transition: 0.6s ease;
+}
+.fa-linkedin:hover {
+  color: #fff;
+  transition: 0.6s ease;
+}
+.footer-copy {
+  margin-top: 6vh;
+  color: white;
+  text-align: center;
+  font-weight: 600;
 }
 
-.jumbotron h2 {
-    font-weight: bold;
-}
-
-.footer {
-    color: #aaa;
-}
-
-.footer .container .row .col-md-3 h6 {
-    font-weight: bold;
-}
-
-.social-icons a {
-    color: #fff;
-    font-size: 1.2rem;
-}
-
-.form-inline input {
-    width: 75%;
-}
 
 
 
@@ -1108,11 +1077,11 @@ animation-fill-mode:none ;
   .search-sub a:hover {
     background-color: #9e0505;
     transition: 0.1s ease-in;
-    color: red;
+    color: white;
     border-color: white;
   }
 
-
+  
   
   /* FOOTER */
   .footer-sec {
@@ -1195,6 +1164,22 @@ animation-fill-mode:none ;
 
 @media (max-width: 768px){
 
+}
+.jumbotron {
+  background-color: #ff6e40;
+  color: #fff;
+  position: relative;
+  top: 60px;
+  width: 65%;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  z-index: 9999;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.jumbotron h2 {
+  font-weight: bold;
 }
 
 

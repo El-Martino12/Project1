@@ -129,8 +129,8 @@ Body {
 }
 
 .form{
-  width: 276px;
-  height:44vh;
+  width: 315px;
+  height:39vh;
   font-size: 23px;
   text-align: center;
  top: -160px;
@@ -145,8 +145,8 @@ Body {
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
 }
 .form img {
-  width: 33vh;
-  height: 40vh;
+  width: 30vh;
+  height: 35vh;
 }
 .form p {
   font-size: 13px;
@@ -156,12 +156,13 @@ Body {
   color: black;
   font-weight: 600;
   font-size: 15px;
+  margin-top: 12px;
 }
 .text {
   background-color: #ff6f61;
   width: 25vh;
   margin-left: 1.9vh;
-  margin-top: -13vh;
+  margin-top: -11vh;
   position: relative;
   color: white;
 }
@@ -314,7 +315,7 @@ Body {
   transition: 0.6s ease;
 }
 .footer-copy {
-  margin-top: 25vh;
+  margin-top: 3vh!important;
   color: white;
   text-align: center;
   font-weight: 600;
